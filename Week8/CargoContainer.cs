@@ -16,7 +16,7 @@ public class CargoContainer<T> where T : DeliveryItem
         {
             totalCost += item.CalculateCost();
         }
-
+        
         return totalCost;
     }
 }
