@@ -23,7 +23,7 @@ namespace Week8;
             myCargo.AddItem(parcel1);
             myCargo.AddItem(parcel2);
 
-            Console.WriteLine($"Total cost for delivery: {myCargo.GetTotalCost()}");
+            Console.WriteLine($"Total cost for delivery: {myCargo.GetTotalCost()} UAH");
         }
     }
 
